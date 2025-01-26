@@ -1,0 +1,5 @@
+add_executable(test_my_library test_my_library.c)
+
+target_link_libraries(test_my_library my_library)
+
+add_test(NAME MyLibraryTests COMMAND test_my_library)
