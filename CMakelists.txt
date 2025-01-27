@@ -7,7 +7,7 @@ set(CMAKE_C_STANDARD_REQUIRED ON)
 
 include_directories(${CMAKE_SOURCE_DIR}/include)
 
-add_library(my_library src/my_library.c)
+add_library(my_library src/md5.c)
 
 add_executable(my_project src/main.c)
 
